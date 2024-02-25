@@ -1,0 +1,5 @@
+/home/lazar/Desktop/miniJohn/cmake-build-debug/CMakeFiles/miniJohn.dir
+/home/lazar/Desktop/miniJohn/cmake-build-debug/CMakeFiles/tests.dir
+/home/lazar/Desktop/miniJohn/cmake-build-debug/CMakeFiles/bruteForce.dir
+/home/lazar/Desktop/miniJohn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lazar/Desktop/miniJohn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
