@@ -35,17 +35,25 @@ How to run:
 1.Brute force attack on a hash
  $ g++ brute.cpp -o brute
  $ ./brute <hash> <hash_name> <number_of_characters>
- 
+ Example : ./brute ab56b4d92b40713acc5af89985d4b786 MD5 5
+ - It should print : 
+   Found: abcde
+   Algo: MD5
+
 2.Dictionary attack on a hash
  $ g++ -pthread -o dict dictionary.cpp
  $ ./dict <hash>
+ Example : ./dict bc250e0d83c37b0953ada14e7bbc1dfd
+  - It should print : 
+  Found: tesla
+  Algo: MD5
+  Path: somewhere in Passwords
 
  Or more easily
  $ mkdir -p build
  $ cd build
  $ cmake ..
  $ make
- $ cd ..
 
   And then to use it:
   Dictionary attack - $ ./miniJohn <hash> 
