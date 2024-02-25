@@ -5,6 +5,8 @@
 #ifndef CRYPTO_MD5_H
 #define CRYPTO_MD5_H
 #include <string>
+#include <cstdint>
+
 class MD5
 {
 public:
