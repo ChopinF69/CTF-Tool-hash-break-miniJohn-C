@@ -26,10 +26,18 @@ print('     ..... lWWc.....OWWWW,. ...    ')
 CTF Tool to perform a dictionary attack or a brute force on a hash
 IT SUPPORTS - MD5 , SHA1 , SHA256 , SHA512
 
+--------------------------------------------INSTALLATION--------------------------------------
 After cloning the project locally , you need to run these commands : 
+LINUX:
 $ cd Passwords/ | find "$(pwd)" -type f -name "*.txt" >> fisiere
 $ cp fisiere cmake-build-debug/
 $ cp lista_romana cmake-build-debug/
+
+WINDWOS:
+cd Passwords\
+for /r %i in (*.txt) do @echo %i >> fisiere
+copy fisiere cmake-build-debug\
+copy lista_romana cmake-build-debug\
 
 How to run:
 1.Brute force attack on a hash
